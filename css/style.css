@@ -4,6 +4,14 @@ body {
   overflow-x: hidden;
 }
 
+/*--- ALL Photo Credits
+coding background(java):
+https://unsplash.com/@ilyapavlov
+
+--*/
+
+
+
 /*--- ALL PAGES: Navigation Css --*/
 
 .navbar {
@@ -23,7 +31,7 @@ body {
 
 /*--- About me Home Css --*/
 .home-inner {
-  background-image: url(../img/computer.jpg)
+  background-image: url(../img/northcampus.jpg)
 }
 .caption {
   width: 100%;
@@ -37,6 +45,12 @@ body {
   font-size: 3.5rem;
   font-weight: 500;
 
+}
+
+
+/*--- About me Home Css --*/
+#projects-back.home-inner {
+  background-image: url(../img/java.jpg)
 }
 
 
