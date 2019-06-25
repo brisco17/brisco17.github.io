@@ -1,14 +1,36 @@
+/*
+MEDIA BREAKPOINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+/*--- ALL Photo Credits to be implemented:
+
+coding background(java):
+https://unsplash.com/@ilyapavlov
+
+--*/
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 body {
   overflow-x: hidden;
 }
 
-/*--- ALL Photo Credits
-coding background(java):
-https://unsplash.com/@ilyapavlov
-
---*/
 
 
 
@@ -21,15 +43,15 @@ https://unsplash.com/@ilyapavlov
 
 /*--- End --*/
 
-/*--- INDEX: Carousel --*/
+
+/*--- INDEX CSS --*/
 .carousel-item {
   height: 100vh;
-
 }
 
 
-
 /*--- About me Home Css --*/
+
 .home-inner {
   background-image: url(../img/northcampus.jpg)
 }
@@ -48,24 +70,37 @@ https://unsplash.com/@ilyapavlov
 }
 
 
-/*--- About me Home Css --*/
+/*--- PROJECTS CSS --*/
 #projects-back.home-inner {
   background-image: url(../img/java.jpg)
 }
 
-
-
-
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-
-  }
-@media (max-width: 768px) {
-
+/*--- CONTACT CSS --*/
+#contact-back.home-inner {
+  background-image: url(../img/contact.jpg)
 }
-@media (max-width: 576px) {
 
+.social a {
+  font-size: 4.5em;
+  padding: 2rem;
+}
+.fa-github {
+  color: #6e5494;
+}
+.fa-linkedin-in {
+  color: #0077b5;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+.navbar-custom {
+    background-color: #D4CBB7;
 }
 
 
@@ -78,7 +113,7 @@ https://unsplash.com/@ilyapavlov
   backface-visibility: visible;
 }
 
-/*--- Fixed Background Image --*/
+/*--- Fixed Background Images Positioning --*/
 figure {
   position: relative;
   width: 100%;
@@ -107,31 +142,14 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+
 }
-.navbar-custom {
-    background-color: #D4CBB7;
+@media (max-width: 576px) {
+
 }
-
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
