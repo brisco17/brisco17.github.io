@@ -16,6 +16,12 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -42,9 +48,65 @@
       </div>
     </div>
   </nav>
+  <h1>Contact Me</h1>
   <p>
-    The best way to reach me is at my email:_______________
+    If you need to get in touch, feel free to send a message and I will
+    answer as soon as possible.
   </p>
+  <form id="contact-form" method="POST" action="https://usebasin.com/f/995ac99d95ee" role="form">
+
+  <div class="messages"></div>
+
+  <div class="controls">
+
+      <div class="row">
+          <div class="col-md-6">
+              <div class="form-group">
+                  <label for="form_name">First name *</label>
+                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="First name is required.">
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="form-group">
+                  <label for="form_lastname">Last name *</label>
+                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Last name is required.">
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="A valid email is required.">
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <div class="form-group">
+                  <label for="form_message">Message *</label>
+                  <textarea id="form_message" name="message" class="form-control" placeholder="Enter a message *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+          <div class="col-md-12">
+              <input type="submit" class="btn btn-success btn-send" value="Send message">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12">
+              <p class="text-muted">
+                  <strong>*</strong> These fields are required. Contact form template by
+                  <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+          </div>
+      </div>
+
+  </div>
+
+</form>
 
 </body>
 
