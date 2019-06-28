@@ -7,14 +7,17 @@
   <title>Brian Scorcia</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763000-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763000-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-142763000-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142763000-1');
+  </script>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -42,8 +45,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse"
-       data-target="#navbarResponsive">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Navbar links -->
@@ -79,35 +81,41 @@
 
     <div class="carousel-inner">
 
-      <div class="carousel-item active"
-       style="background-image: url(img/homepage.jpg);">
+      <div class="carousel-item active" style="background-image: url(img/homepage.jpg);">
         <div class="carousel-caption text-center">
-          <h3 class="display-4">Welcome! My name is</h3>
+          <h3 class="main-heading display-4">Welcome! My name is</h3>
           <h1 class="display-2">Brian Scorcia</h1>
         </div>
       </div>
 
-      <div class="carousel-item"
-       style="background-image: url(img/lakelasalle.jpg);">
+      <div class="carousel-item" style="background-image: url(img/lakelasalle.jpg);">
         <div class="carousel-caption text-center">
-          <h3 class="display-4">I'm a sophomore Computer Science major at the University at Buffalo</h3>
+          <h3 class="main-heading display-4">I'm an up and coming developer with a passion for life</h3>
           <a href="pages/aboutme.html" class="btn btn-outline-light btn-lg" role="button">Get to know me</a>
         </div>
       </div>
 
-      <div class="carousel-item"
-       style="background-image: url(img/desktop.jpg);">
+      <div class="carousel-item" style="background-image: url(img/desktop.jpg);">
         <div class="carousel-caption text-center">
-          <h3 class="display-4">I'm always trying to push my skills to the next level</h3>
+          <h3 class="main-heading display-4">I'm always trying to push my skills to the next level</h3>
           <br>
           <a href="pages/projects.html" class="btn btn-outline-light btn-lg" role="button">See my work</a>
         </div>
       </div>
     </div>
+
+    <!-- Carousel slide change indicators -->
+
+    <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden"true"></span>
+    </a>
+    <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden"true"></span>
+    </a>
   </div>
 
 
-<!--Footer
+  <!--Footer
 <div class="container-fluid padding">
   <div class="row padding">
     <div class="col-md-6">
@@ -126,4 +134,5 @@
 -->
 
 </body>
+
 </html>

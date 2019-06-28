@@ -7,14 +7,17 @@
   <title>Projects</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763000-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763000-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-142763000-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142763000-1');
+  </script>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -81,10 +84,10 @@
   </div>
   <br>
 
-<!-- Idea: Make youtube videos as card decks (rows of 3) -->
+  <!-- Idea: Make youtube videos as card decks (rows of 3) -->
   <div class="container-fluid padding">
-    <div class="row-padding">
-      <div class="col-md-4">
+    <div class="row row-padding">
+      <div class="col-lg-4">
         <div class="card">
           <!-- card image start -->
           <div class="card-image">
@@ -105,8 +108,18 @@
           </div>
         </div>
       </div>
+        <div class="col-lg-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h4 class="card-title">What to do in Times Square</h4>
+              <p class="card-text">
+                New Project Coming Soon
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
 
 

@@ -50,6 +50,7 @@ body {
 }
 
 
+
 /*--- About me Home Css --*/
 
 .home-inner {
@@ -68,6 +69,27 @@ body {
   font-weight: 500;
 
 }
+div.skill {
+  font-size: 4.5em;
+}
+div.scala-padding {
+  padding-left: .4em;
+}
+.fa-python {
+  color: #4584b6;
+}
+.icon-scala {
+  color: #DE3423;
+}
+.fa-js-square {
+  color: #f7df1e;
+}
+.fa-html5 {
+  color: #e34f26;
+}
+.fa-css3-alt {
+  color: #264de4;
+}
 
 
 /*--- PROJECTS CSS --*/
@@ -80,9 +102,17 @@ body {
   background-image: url(../img/contact.jpg)
 }
 
+div.g-padding{
+  padding-left: 1rem;
+}
+
+.socialrow {
+
+}
+
 .social a {
   font-size: 4.5em;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .fa-github {
   color: #6e5494;

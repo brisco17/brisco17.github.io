@@ -7,14 +7,17 @@
   <title>About</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763000-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142763000-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-142763000-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142763000-1');
+  </script>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -28,7 +31,8 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css" integrity="sha256-UnpNLaCbwDQ4tJMVKEqHx75/CcgToCrpi7110fQHNoE=" crossorigin="anonymous" />
+  <link href="../css/style.css" rel="stylesheet">
   <link href="../css/fixed.css" rel="stylesheet">
 
 </head>
@@ -69,24 +73,122 @@
   </div>
 
 
-<!-- About me -->
-<div class="container-fluid padding">
-  <div class="row welcome text-center">
-    <div class="col-12">
-      <h1 class="display-4">About this Website</h1>
-    </div>
-    <hr>
-    <div class="col-12">
-      <p class="lead">
-        This website is my first
-        major venture into web design and was built with HTML 5,
-        CSS 3 and the Bootstrap 4 framework.
-      </p>
-    </div>
-    <div class="col-12">
-      <h1 class "display-2"> MORE TO COME</h1>
+  <!-- About me / This site -->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1 class="display-3">Who am I?</h1>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p class="lead">
+          I am a sophomore at the University at Buffalo pursuing a Bachelor of
+          Science degree in Computer Science. When I'm not on my computer
+          I enjoy playing the piano, working out and spending quality time with friends.
+        </p>
+      </div>
+      <div class="col-12">
+        <h4>About this website</h4>
+        <p class="lead">
+          This website is my first
+          major venture into web design and was built with HTML 5,
+          CSS 3 and the Bootstrap 4 framework.
+        </p>
+      </div>
     </div>
   </div>
-</div>
+
+  <!-- Technical Skills --->
+  <div class="jumbotron container-fluid text-center">
+    <h3 class="heading display-4">Skills</h3>
+    <a class="btn btn-primary btn-lg" href="../assets/resume.pdf">See my Resume</a>
+  </div>
+
+  <div class="container-fluid padding">
+    <div class="row row-padding text-center">
+      <div class="col-12">
+        <h4>Programming Languages</h4>
+      </div>
+      <div class="col-md-4">
+
+        <div class="card">
+          <!-- card image start -->
+          <div class="card-image card-img-top">
+            <div class="skill">
+              <i class="fab fa-python"></i>
+            </div>
+          </div><!-- card image end -->
+          <div class="card-body">
+            <h4 class="card-title">Python</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="card">
+          <!-- card image start -->
+          <div class="card-image card-img-top">
+            <div class="skill scala-padding">
+              <i class="icon-scala scala-padding"></i>
+            </div>
+          </div><!-- card image end -->
+          <div class="card-body">
+            <h4 class="card-title">Scala</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="card">
+          <!-- card image start -->
+          <div class="card-image card-img-top">
+            <div class="skill">
+              <i class="fab fa-js-square"></i>
+            </div>
+          </div><!-- card image end -->
+          <div class="card-body">
+            <h4 class="card-title">JavaScript</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="card">
+          <!-- card image start -->
+          <div class="card-image card-img-top">
+            <div class="skill">
+              <i class="fab fa-html5 skill"></i>
+            </div>
+          </div><!-- card image end -->
+          <div class="card-body">
+            <h4 class="card-title">HTML</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <!-- card image start -->
+          <div class="card-image card-img-top ">
+            <div class="skill">
+              <i class="fab fa-css3-alt skill"></i>
+            </div>
+          </div><!-- card image end -->
+          <div class="card-body">
+            <h4 class="card-title">CSS</h4>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
 
 </html>
