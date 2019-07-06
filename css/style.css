@@ -21,6 +21,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
 coding background(java):
 https://unsplash.com/@ilyapavlov
 
+Person Typing (email)
+Glenn Carstens-Peters - unsplash
+
 --*/
 body {
   overflow-x: hidden;
@@ -84,6 +87,9 @@ p {
 
 .carousel-caption h3 {
   font-size: 2.5rem;
+}
+.bttn-heading {
+  padding-bottom: 5px;
 }
 
 
