@@ -22,6 +22,7 @@ margin-right: 0px!important;
   display: table;
   z-index: -1;
 }
+
 .home-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;

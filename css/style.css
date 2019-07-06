@@ -16,81 +16,115 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
 /*--- ALL Photo Credits to be implemented:
 
 coding background(java):
 https://unsplash.com/@ilyapavlov
 
 --*/
-
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
 body {
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
-
-
+p {
+  font-family: 'Raleway', sans-serif;
+}
 
 /*--- ALL PAGES: Navigation Css --*/
-
 .navbar {
   background: rgba(0, 0, 0, 0.6) !important;
   letter-spacing: .1rem;
 }
 
 /*--- End --*/
-
-
 /*--- INDEX CSS --*/
 .carousel-item {
   height: 100vh;
 }
 
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 50%
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: 35%;
+  }
+}
+
+#opening.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 40%;
+}
+
+#opening.carousel-caption h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  margin-top: 0;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+  #opening.carousel-caption {
+    top: 30%
+  }
+}
+
+.carousel-caption h3 {
+  font-size: 2.5rem;
+}
+
 
 
 /*--- About me Home Css --*/
-
 .home-inner {
   background-image: url(../img/northcampus.jpg)
 }
-.caption {
-  width: 100%;
-  max-width: 100%;
-  position: absolute;
-  top: 50%;
-  color: White;
-  z-index: 1
-}
+
 .caption h1 {
   font-size: 3.5rem;
   font-weight: 500;
-
 }
+
 div.skill {
   font-size: 4.5em;
 }
+
 div.scala-padding {
   padding-left: .4em;
 }
+
 .fa-python {
   color: #4584b6;
 }
+
 .icon-scala {
   color: #DE3423;
 }
+
 .fa-js-square {
   color: #f7df1e;
 }
+
 .fa-html5 {
   color: #e34f26;
 }
+
 .fa-css3-alt {
   color: #264de4;
 }
-
 
 /*--- PROJECTS CSS --*/
 #projects-back.home-inner {
@@ -102,37 +136,44 @@ div.scala-padding {
   background-image: url(../img/contact.jpg)
 }
 
-div.g-padding{
+div.g-padding {
   padding-left: 1rem;
-}
-
-.socialrow {
-
 }
 
 .social a {
   font-size: 4.5em;
   padding: 1.5rem;
 }
+
+@media (max-width: 575.98px) {
+  .social a {
+    font-size: 2.5em;
+    padding: 1rem;
+  }
+}
+
+
+
 .fa-github {
   color: #6e5494;
 }
+
 .fa-linkedin-in {
   color: #0077b5;
 }
+
 .fa-youtube {
   color: #ff0000;
 }
 
-
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
-}
-.navbar-custom {
-    background-color: #D4CBB7;
+  padding: 1rem;
 }
 
+.navbar-custom {
+  background-color: #D4CBB7;
+}
 
 /*---Firefox Bug Fix ---*/
 .carousel-item {
@@ -148,8 +189,9 @@ figure {
   position: relative;
   width: 100%;
   height: 60%;
-  margin: 0!important;
+  margin: 0 !important;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -158,28 +200,11 @@ figure {
   width: 100%;
   height: 100%;
 }
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
-}
 
-/*---Media Queries --*/
-@media (max-width: 992px) {
 
-  }
-@media (max-width: 768px) {
-
-}
-@media (max-width: 576px) {
-
+.carousel-indicators li {
+  border-radius: 45px;
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
 }
