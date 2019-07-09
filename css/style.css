@@ -1,5 +1,5 @@
 /*
-MEDIA BREAKPOINTS:
+MEDIA BREAKPOINT REFERENCES:
 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -205,7 +205,7 @@ figure {
 
 
 .carousel-indicators li {
-  border-radius: 45px;
+  border-radius: 50%;
   width: 45px;
   height: 45px;
   background-color: #ffffff;
