@@ -48,8 +48,8 @@ p {
 
 .carousel-caption {
   position: absolute;
-  width: 100%;
   left: 0px;
+  width: 100%;
   top: 50%
 }
 
@@ -94,9 +94,16 @@ p {
 
 
 
-/*--- About me Home Css --*/
+/*--- About me Home CSS --*/
+.lead {
+  width: 36em;
+  margin: 0 auto;
+  max-width: 100%;
+  line-height: 1.5;
+  font-size: 25px;
+}
 .home-inner {
-  background-image: url(../img/northcampus.jpg)
+  background-image: url(../img/lakelasalle.jpg)
 }
 
 .caption h1 {
@@ -111,9 +118,19 @@ div.skill {
 div.scala-padding {
   padding-left: .4em;
 }
+div.c-padding {
+  padding-left: .25em;
+}
+div.php-padding {
+  padding-left: .15em;
+}
 
 .icon-scala {
   color: #DE3423;
+}
+
+.icon-c {
+  color: #3949ab;
 }
 
 .fa-js-square {
@@ -126,6 +143,26 @@ div.scala-padding {
 
 .fa-css3-alt {
   color: #264de4;
+}
+
+.fa-wordpress {
+  color: #21759b;
+}
+
+.icon-php-alt {
+  color: #4f5b93;
+}
+
+.icon-bootstrap {
+  color: #553C7B;
+}
+
+.icon-ubuntu {
+  color: #77216f;
+}
+
+.fa-git {
+  color: #3E2C00;
 }
 
 /*--- PROJECTS CSS --*/
@@ -202,7 +239,6 @@ figure {
   width: 100%;
   height: 100%;
 }
-
 
 .carousel-indicators li {
   border-radius: 50%;
